@@ -51,6 +51,26 @@
 	<script async defer src="https://cdn.simpleanalytics.io/hello.js"></script>
 	<noscript><img src="https://api.simpleanalytics.io/hello.gif" alt=""></noscript>
 		<!-- End Simpleanalytics Code -->
+
+	<!-- Google Firebase -->
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.2.3/firebase-analytics.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyAJ2iS9ZWjncXRBVIepCPstszTs7tNG764",
+    authDomain: "analytics-poc-2ace9.firebaseapp.com",
+    databaseURL: "https://analytics-poc-2ace9.firebaseio.com",
+    projectId: "analytics-poc-2ace9",
+    storageBucket: "analytics-poc-2ace9.appspot.com",
+    messagingSenderId: "35225044012",
+    appId: "1:35225044012:web:61ce475f366fece2bafd89",
+    measurementId: "G-65D7KD3HJG"
+  };
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+<!-- End Google Firebase Code -->
 </body>
 
 </html>
